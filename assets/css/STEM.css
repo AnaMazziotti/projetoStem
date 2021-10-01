@@ -76,6 +76,7 @@
     margin-right: 20px;
     margin-top: 50px;
     color: white;
+    text-decoration: none;
 }
 
 #bloco-1{
@@ -231,7 +232,7 @@ width: 8.5%;
 left: 78%;
 }
 
-a{
+.a{
     text-decoration: none;
 }
 
@@ -296,3 +297,6 @@ a{
     cursor: pointer;
 }
 
+.email{
+    object-fit: contain;
+}
