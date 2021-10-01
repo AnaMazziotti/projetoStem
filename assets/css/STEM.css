@@ -321,6 +321,7 @@ text-align: center;
     padding-top: 40px;
 }
 
+/*  
 .email{
     width: 30px;
     height: 40px;
@@ -332,11 +333,11 @@ text-align: center;
 }
 
 .insta{
-    width: 35px;
-    height: 20px;
+    width: 50px;
+    height: 0px;
 }
 
 .linkedin{
     width: 35px;
     height: 20px;
-}
+}*/
