@@ -269,24 +269,48 @@ a{
 .blocoblog{
     display: inline-block;
     width: 300px;
-    height: 400px;
+    height: 500px;
     margin: 60px 40px 0px 40px;
-    border:black solid;
-    justify-items: center;    
+    justify-items: center; 
+    overflow: hidden;   
 }
 
 .botaoblog{
     justify-items: center;
-    margin-top: 80px;
     border: 1px;
     border-radius: 15px;
     padding: 10px;
     background-color: #E48E33;
     color: white;
+    font-family: 'PT Serif', serif;
 }
 
-/* fazer um hover para o botaoblog */
+.botaoblog:hover{
+    font-size: large;
+}
 
 .legendapost1{
-text-align: center;
+    margin-top: 10px;
+    text-align: justify;
+    color: #347F9B;
+    font-weight: bold;
+    font-family: 'PT Serif', serif;
+    font-size: 13px;
+}
+
+.legendapost2{
+    text-align: justify;
+    color: #34809bc5;
+    font-family: 'PT Serif', serif;
+    font-size: 12px;
+}
+
+.imgblog{
+    max-width: 300px;
+}
+
+.imgblog:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    
 }
