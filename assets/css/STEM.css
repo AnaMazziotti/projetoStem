@@ -71,8 +71,12 @@ h1{
     margin: 10px;
 }
 
-.margin2{
-    margin: 10px 160px 10px 0px;
+.marginspan{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 50px;
+    color: white;
+    text-decoration: none;
 }
 
 #bloco-1{
@@ -233,7 +237,7 @@ width: 8.5%;
 left: 78%;
 }
 
-a{
+.a{
     text-decoration: none;
 }
 
@@ -314,3 +318,6 @@ text-align: center;
     cursor: pointer;
 }
 
+.email{
+    object-fit: contain;
+}
