@@ -237,13 +237,7 @@ a{
 
 
 .faleconosco{
-    grid-column: 4/6;
-    grid-template-rows: 100px;
-}
-
-.contato{
-    grid-column: 3/6;
-    grid-template-rows: 100px;
+ padding-top: 35px;
 }
 
 .tituloblog{
