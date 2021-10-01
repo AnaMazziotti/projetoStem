@@ -302,14 +302,6 @@ text-align: center;
     object-fit: contain;
 }
 
-.tituloquemsomos {
-    text-align: center;
-    font-size: 35px;
-    font-family: 'PT Serif', serif;
-    color: #E48E33;
-
-}
-
 .marginspan{
     margin-right: 35px;
     color: white;
@@ -329,4 +321,12 @@ text-align: center;
 .email{
     width: 40px;
     height: 20px;
+}
+
+.tituloquemsomos {
+    text-align: center;
+    font-size: 35px;
+    font-family: 'PT Serif', serif;
+    color: #E48E33;
+
 }
