@@ -124,7 +124,8 @@ h1{
 }
 
 .bloco4{
-    height: 600px;
+    background-color: #347F9B;
+    height: auto;
 }
 
 .bloco5{
@@ -342,4 +343,64 @@ text-align: center;
     margin-top: 40px;
     margin-bottom: 40px;
     color:#E48E33;
+}
+
+.tituloquemsomos{
+    margin-top: 0px;
+    text-align: center; 
+    font-size: 35px;
+    font-family: 'PT Serif', serif ;
+    color: white
+}
+
+.textoquemsomos{
+    position: absolute;
+    justify-items:center;
+    text-align: justify; 
+    margin: 20px 100px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 19px;
+}
+
+.titulo-diretoria{
+    margin-top: 350px;
+    text-align: center;
+    font-size: 35px;
+    font-family: 'PT Serif', serif ;
+    color: white
+}
+
+.blocodiret{
+    display: inline-block;
+    margin: 70px 10px ;
+    justify-items: center;
+}
+
+.leg-diretoria{
+    justify-content: center;
+    text-align: center;
+    margin: 10px 10px;
+    color: #054a63;
+    font-weight: bold;
+    font-family: 'PT Serif', serif;
+    font-size: 19px;
+}
+
+.scm{
+    padding-top: 15px;
+}
+
+.dec-scm{
+    padding-right: 50px;
+}
+
+.desc-diretoria{
+    text-align: justify;
+    color: ;
+    font-family: 'PT Serif', serif;
+    font-size: 14px;
+    color: white;
+    max-width: 200px;
 }
