@@ -31,8 +31,6 @@ h1{
 .container{
     display: flex;
     justify-content: center;
-    align-items: center;
-    padding-top: 50px;
 }
 
 .fonte4{
@@ -72,14 +70,6 @@ h1{
 .margin{
     margin: 10px;
 }
-
-<<<<<<< Updated upstream
-=======
-.marginspan{
-    margin-right: 35px;
-    color: white;  
-}
->>>>>>> Stashed changes
 
 #bloco-1{
     margin:0px
@@ -306,10 +296,6 @@ text-align: center;
     cursor: pointer;
 }
 
-.email{
-<<<<<<< Updated upstream
-    object-fit: contain;
-}
 
 .tituloquemsomos {
     text-align: center;
@@ -353,10 +339,4 @@ text-align: center;
 .linkedin{
     width: 35px;
     height: 20px;
-=======
-    align-items: center;
-    
-    height: 30px;
-    width: 40px;
->>>>>>> Stashed changes
 }
