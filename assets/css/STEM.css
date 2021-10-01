@@ -321,3 +321,11 @@ text-align: center;
 .email{
     object-fit: contain;
 }
+
+.tituloquemsomos {
+    text-align: center;
+    font-size: 35px;
+    font-family: 'PT Serif', serif;
+    color: #E48E33;
+
+}
