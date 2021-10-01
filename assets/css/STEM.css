@@ -71,6 +71,13 @@ h1{
     margin: 10px;
 }
 
+.marginspan{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 50px;
+    color: white;
+    text-decoration: none;
+}
 
 #bloco-1{
     margin:0px
@@ -121,11 +128,12 @@ h1{
     text-align: center;
 }
 .bloco3{
-    height: 680px;
+    height: 700px;
 }
 
 .bloco4{
     height: 600px;
+    background-color: #347F9B;
 }
 
 .bloco5{
@@ -134,8 +142,12 @@ h1{
 
 .bloco6{
     height: 250px;
-    background-color: #347F9B;
+    background-color: #4c707e86;
 }
+
+/*body > div:nth-of-type(odd) {
+	background: #040d1c;
+}*/
 
 .fonte1{
     padding-top: 25px;
@@ -226,8 +238,20 @@ width: 8.5%;
 left: 78%;
 }
 
-a{
+.a{
     text-decoration: none;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: 100px 100px;
+}
+
+
+.faleconosco{
+    grid-column: 4/6;
+    grid-template-rows: 100px;
 }
 
 .gap2{
@@ -244,33 +268,29 @@ a{
     margin-top: 40px;
     text-align: center;
     font-size: 35px;
-    font-family: 'Zilla Slab', serif;
+    font-family: 'PT Serif', serif;
     color: #E48E33;
 }
 
 .blocoblog{
     display: inline-block;
     width: 300px;
-    height: 475px;
+    height: 400px;
     margin: 60px 40px 0px 40px;
-    justify-items: center; 
-    overflow: hidden;   
+    justify-items: center;    
 }
 
 .botaoblog{
     justify-items: center;
+    margin-top: 80px;
     border: 1px;
     border-radius: 15px;
     padding: 10px;
     background-color: #E48E33;
     color: white;
-    font-family: 'PT Serif', serif;
-    text-decoration: none;
 }
 
-.botaoblog:hover{
-    font-size: large;
-}
+/* fazer um hover para o botaoblog */
 
 .legendapost1{
 text-align: center;
@@ -302,31 +322,22 @@ text-align: center;
     object-fit: contain;
 }
 
-.marginspan{
-    margin-right: 35px;
-    color: white;
-    text-decoration: none;
-    align-items: center;
-}
-
-.alinharfc{
-    padding-top: 55px;
-    align-items: center;
-}
-
-.faleconosco{
-    padding-top: 40px;
-}
-
-.email{
-    width: 40px;
-    height: 20px;
-}
-
-.tituloquemsomos {
-    text-align: center;
+.tituloquemsomos{
+    margin-top: 0px;
+    text-align: center; 
     font-size: 35px;
-    font-family: 'PT Serif', serif;
-    color: #E48E33;
-
+    font-family: 'PT Serif', serif ;
+    color: white
 }
+
+.textoquemsomos{
+    position: absolute;
+    justify-items:center;
+    text-align: justify; 
+    margin: 20px 100px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 19px;
+}
+
