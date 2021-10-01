@@ -327,6 +327,21 @@ text-align: center;
 }
 
 .email{
-    width: 40px;
+    width: 30px;
+    height: 40px;
+}
+
+.tel{
+    width: 35px;
+    height: 20px;
+}
+
+.insta{
+    width: 35px;
+    height: 20px;
+}
+
+.linkedin{
+    width: 35px;
     height: 20px;
 }
