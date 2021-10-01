@@ -71,13 +71,6 @@ h1{
     margin: 10px;
 }
 
-.marginspan{
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-top: 50px;
-    color: white;
-    text-decoration: none;
-}
 
 #bloco-1{
     margin:0px
@@ -128,7 +121,7 @@ h1{
     text-align: center;
 }
 .bloco3{
-    height: 700px;
+    height: 680px;
 }
 
 .bloco4{
@@ -143,10 +136,6 @@ h1{
     height: 250px;
     background-color: #347F9B;
 }
-
-/*body > div:nth-of-type(odd) {
-	background: #040d1c;
-}*/
 
 .fonte1{
     padding-top: 25px;
@@ -237,20 +226,8 @@ width: 8.5%;
 left: 78%;
 }
 
-.a{
+a{
     text-decoration: none;
-}
-
-.grid{
-    display: grid;
-    grid-template-columns: repeat(5,1fr);
-    grid-template-rows: 100px 100px;
-}
-
-
-.faleconosco{
-    grid-column: 4/6;
-    grid-template-rows: 100px;
 }
 
 .gap2{
@@ -267,30 +244,33 @@ left: 78%;
     margin-top: 40px;
     text-align: center;
     font-size: 35px;
-    font-family: 'PT Serif', serif;
+    font-family: 'Zilla Slab', serif;
     color: #E48E33;
 }
 
 .blocoblog{
     display: inline-block;
     width: 300px;
-    height: 400px;
+    height: 475px;
     margin: 60px 40px 0px 40px;
-    border:black solid;
-    justify-items: center;    
+    justify-items: center; 
+    overflow: hidden;   
 }
 
 .botaoblog{
     justify-items: center;
-    margin-top: 80px;
     border: 1px;
     border-radius: 15px;
     padding: 10px;
     background-color: #E48E33;
     color: white;
+    font-family: 'PT Serif', serif;
+    text-decoration: none;
 }
 
-/* fazer um hover para o botaoblog */
+.botaoblog:hover{
+    font-size: large;
+}
 
 .legendapost1{
 text-align: center;
@@ -328,4 +308,25 @@ text-align: center;
     font-family: 'PT Serif', serif;
     color: #E48E33;
 
+}
+
+.marginspan{
+    margin-right: 35px;
+    color: white;
+    text-decoration: none;
+    align-items: center;
+}
+
+.alinharfc{
+    padding-top: 55px;
+    align-items: center;
+}
+
+.faleconosco{
+    padding-top: 40px;
+}
+
+.email{
+    width: 40px;
+    height: 20px;
 }
