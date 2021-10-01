@@ -132,7 +132,7 @@ h1{
 }
 
 .bloco4{
-    height: 600px;
+    height: auto;
     background-color: #347F9B;
 }
 
@@ -340,4 +340,46 @@ text-align: center;
     color: white;
     font-size: 19px;
 }
+
+.titulo-diretoria{
+    margin-top: 350px;
+    text-align: center;
+    font-size: 35px;
+    font-family: 'PT Serif', serif ;
+    color: white
+}
+
+.blocodiret{
+    display: inline-block;
+    margin: 70px 10px ;
+    justify-items: center;
+}
+
+.imgdiret{
+    max-width: ;
+}
+
+.leg-diretoria{
+    justify-content: center;
+    text-align: center;
+    margin: 10px 10px;
+    color: #054a63;
+    font-weight: bold;
+    font-family: 'PT Serif', serif;
+    font-size: 19px;
+}
+
+.scm{
+    margin-top: 10px;
+}
+
+.desc-diretoria{
+    text-align: justify;
+    color: ;
+    font-family: 'PT Serif', serif;
+    font-size: 14px;
+    color: white;
+    max-width: 200px;
+}
+
 
