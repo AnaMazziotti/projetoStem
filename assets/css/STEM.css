@@ -71,9 +71,6 @@ h1{
     background-color: #347F9B;
 }
 
-.margin{
-    margin: 10px;
-}
 
 #bloco-1{
     margin:0px
@@ -137,7 +134,7 @@ h1{
 }
 
 .bloco6{
-    height: 250px;
+    height: 280px;
     background-color: #347F9B;
 }
 
@@ -165,27 +162,33 @@ h1{
     font-family: monospace;
 }
 
+.menu1, .menu2, .menu3, .menu4 {
+    position:relative;
+}
+
 .menu1::after{
     content:'';
     position: absolute;
-    bottom: 1.5rem;
-    left: 43%;
+    bottom: -10px;
+    left: 35%;
     width: 0px;
     height: 0.1rem;
     background: rgba(236, 118, 21, 0.993);
     transition: all 300ms ease-in-out;
 }
 
+
 .menu1:hover::after{
-    width: 4.2%;
-    left: 43%;
+    width: 30%;
+    left: 35%;
+    bottom: -10px;
 }
 
 .menu2::after{
     content:'';
     position: absolute;
-    bottom: 1.5rem;
-    left: 53.2%;
+    bottom: -10px;
+    left: 17.5%;
     width: 0px;
     height: 0.1rem;
     background: rgba(236, 118, 21, 0.993);
@@ -193,15 +196,16 @@ h1{
     }
     
 .menu2:hover::after{
-width: 8.5%;
-left: 53.2%;
+    width: 65%;
+    left: 17.5%;
+    bottom: -10px;
 }
 
 .menu3::after{
     content:'';
     position: absolute;
-    bottom: 1.5rem;
-    left: 67%;
+    bottom: -10px;
+    left: 32.5%;
     width: 0px;
     height: 0.1rem;
     background: rgba(236, 118, 21, 0.993);
@@ -209,15 +213,16 @@ left: 53.2%;
     }
     
 .menu3:hover::after{
-width: 5.5%;
-left: 67%;
+    width: 35%;
+    left: 32.5%;
+    bottom: -10px;
 }
 
 .menu4::after{
     content:'';
     position: absolute;
-    bottom: 1.5rem;
-    left: 78%;
+    bottom: -10px;
+    left: 18%;
     width: 0px;
     height: 0.1rem;
     background: rgba(236, 118, 21, 0.993);
@@ -225,8 +230,9 @@ left: 67%;
     }
     
 .menu4:hover::after{
-width: 8.5%;
-left: 78%;
+    width: 64%;
+    left: 18%;
+    bottom: -10px;
 }
 
 a{
@@ -241,7 +247,7 @@ a{
     margin-top: 40px;
     text-align: center;
     font-size: 35px;
-    font-family: 'Zilla Slab', serif;
+    font-family: 'PT Serif', serif;
     color: #E48E33;
 }
 
@@ -305,46 +311,56 @@ a{
 }
 
 .marginspan{
-    margin-right: 35px;
+    margin-right: 50px;
     color: white;
     text-decoration: none;
     align-items: center;
+    font-family: 'PT Serif', serif;
 }
 
 .alinharfc{
-    padding-top: 55px;
     align-items: center;
 }
 
 .faleconosco{
+    margin: 10px;
     padding-top: 40px;
+    padding-bottom: 50px;
+    font-family: 'PT Serif', serif;;
 }
 
  
 .email{
-    width: 30px;
-    height: 40px;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 55px;
 }
 
 .tel{
-    width: 35px;
-    height: 20px;
+    height: 50px;
+    margin-top: 21px;
+    margin-left: 65px;
 }
 
 .insta{
-    width: 70px;
-    align-items: center;
+    width: 50px;
+    margin-left: 49px;
+    margin-top: 20px;
 }
 
 .linkedin{
-    width: 35px;
-    height: 20px;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 0px;
+    max-width: 246px;
 }
 
 .titulofotos{
     text-align: center;
     font-size: 35px;
     margin-top: 40px;
+    font-family: 'PT Serif', serif;
     margin-bottom: 40px;
     color:#E48E33;
 }
