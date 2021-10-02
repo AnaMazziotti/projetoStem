@@ -158,27 +158,33 @@ h1{
     font-family: monospace;
 }
 
+.menu1, .menu2, .menu3, .menu4 {
+    position:relative;
+}
+
 .menu1::after{
     content:'';
     position: absolute;
-    bottom: 1.5rem;
-    left: 43%;
+    bottom: -10px;
+    left: 35%;
     width: 0px;
     height: 0.1rem;
     background: rgba(236, 118, 21, 0.993);
     transition: all 300ms ease-in-out;
 }
 
+
 .menu1:hover::after{
-    width: 4.2%;
-    left: 43%;
+    width: 30%;
+    left: 35%;
+    bottom: -10px;
 }
 
 .menu2::after{
     content:'';
     position: absolute;
-    bottom: 1.5rem;
-    left: 53.2%;
+    bottom: -10px;
+    left: 17.5%;
     width: 0px;
     height: 0.1rem;
     background: rgba(236, 118, 21, 0.993);
@@ -186,15 +192,16 @@ h1{
     }
     
 .menu2:hover::after{
-width: 8.5%;
-left: 53.2%;
+    width: 65%;
+    left: 17.5%;
+    bottom: -10px;
 }
 
 .menu3::after{
     content:'';
     position: absolute;
-    bottom: 1.5rem;
-    left: 67%;
+    bottom: -10px;
+    left: 32.5%;
     width: 0px;
     height: 0.1rem;
     background: rgba(236, 118, 21, 0.993);
@@ -202,15 +209,16 @@ left: 53.2%;
     }
     
 .menu3:hover::after{
-width: 5.5%;
-left: 67%;
+    width: 35%;
+    left: 32.5%;
+    bottom: -10px;
 }
 
 .menu4::after{
     content:'';
     position: absolute;
-    bottom: 1.5rem;
-    left: 78%;
+    bottom: -10px;
+    left: 18%;
     width: 0px;
     height: 0.1rem;
     background: rgba(236, 118, 21, 0.993);
@@ -218,8 +226,9 @@ left: 67%;
     }
     
 .menu4:hover::after{
-width: 8.5%;
-left: 78%;
+    width: 64%;
+    left: 18%;
+    bottom: -10px;
 }
 
 a{
@@ -324,9 +333,9 @@ text-align: center;
 }
 
 .tel{
-    height: 35px;
-    margin-top: 35px;
-    margin-left: 80px;
+    height: 50px;
+    margin-top: 21px;
+    margin-left: 65px;
 }
 
 .insta{
@@ -413,5 +422,3 @@ text-align: center;
     font-size: 14px;
     color: white;
 }
-
-
