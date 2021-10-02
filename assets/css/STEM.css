@@ -310,15 +310,8 @@ a{
 
 }
 
-.marginspan1{
+.marginspan{
     margin-right: 50px;
-    color: white;
-    text-decoration: none;
-    align-items: center;
-    font-family: 'PT Serif', serif;
-}
-
-.marginspan2{
     color: white;
     text-decoration: none;
     align-items: center;
