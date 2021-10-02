@@ -399,8 +399,12 @@ text-align: center;
     padding-top: 15px;
 }
 
-.dec-scm{
-    padding-right: 50px;
+.ajuste1{
+    max-width: 200px;
+}
+
+.ajuste2{
+    max-width: 270px ;
 }
 
 .desc-diretoria{
@@ -408,13 +412,6 @@ text-align: center;
     font-family: 'PT Serif', serif;
     font-size: 14px;
     color: white;
-    max-width: 200px;
 }
 
-.marginsta{
-    margin-left: 30px;
-}
 
-.espacamento-fc{
-max-width: 246px;
-}
